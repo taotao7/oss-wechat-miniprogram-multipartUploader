@@ -33,8 +33,8 @@ wx.chooseMessageFile({
       "ak",
       "sk",
       //  upload is successful will excute the func
-      (res) => {
-        console.log(res);
+      (r) => {
+        console.log(r);
       }
     );
     // upload
