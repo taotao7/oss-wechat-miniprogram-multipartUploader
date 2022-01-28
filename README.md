@@ -1,9 +1,9 @@
-# oss-wechat-miniprogram-multipartUploader
+# oss-wechat-miniprogram-multipartuploader
 
 a wechat miniprogram multipart uploader
 
 ```
-npm install oss-wechat-miniprogram-multipartUploader --save
+npm install oss-wechat-miniprogram-multipartuploader --save
 ```
 
 ## MultipartUploader
