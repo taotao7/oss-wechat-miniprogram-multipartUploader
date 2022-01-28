@@ -34,7 +34,7 @@ class MultipartUploader {
       //initUploadId
       wx.request({
         url: `https://${this._bucketName}.${this._region}.aliyuncs.com/${this._objectName}?uploads`,
-        timeout: this.config.timeout,
+        timeout: this._config.timeout,
         method: "POST",
         header: {
           "content-type": "\n",
@@ -151,7 +151,7 @@ class MultipartUploader {
     return new Promise((resolve, reject) => {
       wx.request({
         url: `https://${this._bucketName}.${this._region}.aliyuncs.com/${this._objectName}?partNumber=${partNumber}&uploadId=${this._uploadId}`,
-        timeout: this.config.timeout,
+        timeout: this._config.timeout,
         method: "PUT",
         data: chunk,
         header: {
@@ -185,7 +185,7 @@ class MultipartUploader {
   _completeUpload(data) {
     wx.request({
       url: `https://${this._bucketName}.${this._region}.aliyuncs.com/${this._objectName}?uploadId=${this._uploadId}`,
-      timeout: this.config.timeout,
+      timeout: this._config.timeout,
       method: "POST",
       data,
       header: {
