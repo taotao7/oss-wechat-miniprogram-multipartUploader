@@ -6,6 +6,20 @@ a wechat miniprogram multipart uploader
 npm install oss-wechat-miniprogram-multipartUploader --save
 ```
 
+## MultipartUploader
+
+parameters:
+
+- filePath {String} upload tempfile path
+- bucketName {String} your target bucket
+- ak {String} your access key
+- sk {String} your secret key
+- func {Function} upload successful will excute
+- option {Object}
+  - maxConcurrency {Number} default is 5, must be less than 10
+  - chunkSize {Number} default 5*1024*1024 bytes
+  - timeout {Number} default 10000 ms
+
 ```javascript
 import MultipartUploader from 'ali-oss-wx
 wx.chooseMessageFile({
@@ -32,8 +46,9 @@ wx.chooseMessageFile({
 });
 ```
 
-
 TODO
-- [ ] test case 
+
+- [ ] test case
+- [ ] retry
 - [ ] abort multipart
 - [ ] resume upload
