@@ -1,6 +1,6 @@
 {
   "name": "oss-wechatminiprogram-multipartuploader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "aliyun oss multipart uploader for wechat mini program",
   "main": "./dist/upload.js",
   "scripts": {
