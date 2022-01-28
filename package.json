@@ -6,9 +6,19 @@
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
-  "keywords": [],
-  "author": "taotao7",
-  "license": "ISC",
+  "keywords": [
+    "oss",
+    "aliyun"
+  ],
+  "bugs": {
+    "url": "https://github.com/taotao7/oss-wechat-miniprogram-multipartUploader/issues"
+  },
+  "author": "taotao7<moca_tao7@foxmail.com> (https://github.com/taotao7)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taotao7/oss-wechat-miniprogram-multipartUploader"
+  },
+  "license": "BSD 2-Clause License",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.3",
