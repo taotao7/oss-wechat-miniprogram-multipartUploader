@@ -1,9 +1,9 @@
-# oss-wechat-miniprogram-multipartuploader
+# oss-wechatminiprogram-multipartuploader
 
 a wechat miniprogram multipart uploader
 
 ```
-npm install oss-wechat-miniprogram-multipartuploader --save
+npm install oss-wechatminiprogram-multipartuploader --save
 ```
 
 ## MultipartUploader
@@ -21,7 +21,7 @@ parameters:
   - timeout {Number} default 10000 ms
 
 ```javascript
-import MultipartUploader from 'ali-oss-wx
+import MultipartUploader from 'oss-wechatminiprogram-multipartuploader';
 wx.chooseMessageFile({
   count: 1,
   success: (res) => {
