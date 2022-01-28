@@ -1,12 +1,12 @@
 {
-  "name": "ali-oss-wxminiprogrammultipartupload",
+  "name": "oss-wechat-miniprogram-multipartUploader",
   "version": "1.0.0",
-  "description": "ali-oss multipart uploader for wechat mini program",
+  "description": "aliyun oss multipart uploader for wechat mini program",
   "main": "./dist/upload.js",
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
-  "keywords": [ ],
+  "keywords": [],
   "author": "taotao7",
   "license": "ISC",
   "devDependencies": {
