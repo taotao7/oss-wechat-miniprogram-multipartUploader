@@ -1,0 +1,21 @@
+{
+  "name": "ali-oss-wxminiprogrammultipartupload",
+  "version": "1.0.0",
+  "description": "ali-oss multipart uploader for wechat mini program",
+  "main": "./dist/upload.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [ ],
+  "author": "taotao7",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.64.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "fast-xml-parser": "^4.0.1"
+  }
+}
